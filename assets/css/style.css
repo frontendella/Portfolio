@@ -252,6 +252,7 @@ img {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
 .navbar .navbar-nav .nav-item .nav-link {
   color: #fff;
   padding-right: 24px;
@@ -267,11 +268,22 @@ img {
   padding-left: 0;
 }
 
-nav .nav-link:hover {
-  text-decoration: underline;
-  color: var(--first-color);
+.nav-link::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 25%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
-
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+} 
 .navbar .navbar-text img {
   margin-left: 8px;
 }
@@ -321,12 +333,6 @@ HTML CSS JSResult Skip Results Iframe
   width: 100vw;
 }
 
-
-
-.link:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 *,
 ::after,
