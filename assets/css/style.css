@@ -316,9 +316,12 @@ svg {
   transition: 1s;
 } */
 
-HTML CSS JSResult Skip Results Iframe
-/* setting */
-
+HTML
+CSS
+JSResult
+Skip
+Results
+Iframe
 * {
   margin: 0;
   padding: 0;
@@ -655,7 +658,7 @@ footer .footer__links-item:hover {
 }
 
 .description {
-  margin-left: 150px;
+  margin-left: 0px;
 }
 .footer__links {
   margin-left: 150px;
