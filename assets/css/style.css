@@ -302,31 +302,6 @@ svg {
     border-color 0.15s ease-in-out;
 }
 
-/*==================== Menu ====================*/
-/* 
-.menu {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #000;
-  z-index: 9999;
-  position: fixed;
-  opacity: 1;
-  transition: 1s;
-} */
-
-HTML
-CSS
-JSResult
-Skip
-Results
-Iframe
-* {
-  margin: 0;
-  padding: 0;
-  flex-shrink: 0;
-}
 .wrap{
   display: flex;
   flex-direction: column;
