@@ -121,6 +121,7 @@ img {
   font-size: var(--small-font-size);
   letter-spacing: 0;
   color: var(--text-color-light);
+  line-height: 2.75rem;
 }
 
 .container {
